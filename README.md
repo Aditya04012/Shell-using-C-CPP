@@ -12,7 +12,7 @@ This project introduces a fast, modern, and efficient shell designed for Linux, 
 Features
 --------
 
-1. Inbuilt Commands
+1.**Inbuilt Commands** ✅
 - `cd`: Navigate between directories.
 - `ls`: List directory contents.
 - `echo`: Output text to the terminal.
@@ -22,7 +22,7 @@ Features
 
 Additional inbuilt commands can be added or customized.
 
-2. External Commands
+2.**External Commands** ✅
 The shell supports external commands, which are executed from the system’s PATH. Some commonly used external commands include:
 - `grep`: Search for patterns within files.
 - `curl`: Transfer data from or to a server.
@@ -30,13 +30,13 @@ The shell supports external commands, which are executed from the system’s PAT
 - `python`: Execute Python scripts.
 - `gcc`: Compile C programs.
 
-3. Piping
+3. **Piping** ✅
 This shell supports piping (`|`), allowing you to pass the output of one command as the input to another. Example:
 ```
 $ ls | grep "pattern"
 ```
 
-4. Redirection
+4. **Redirection** ✅
 The shell supports input and output redirection:
 - Output Redirection (`>`): Directs the output of a command to a file (overwrites).
   ```
@@ -51,10 +51,10 @@ The shell supports input and output redirection:
   $ sort < unsorted.txt
   ```
 
-5. Cross-Platform Compatibility
+5. **Cross-Platform Compatibility** ✅
 This shell is designed to work on both Linux and Windows platforms. For Windows, the shell leverages compatibility layers to ensure that it functions seamlessly across both environments.
 
-6. Performance
+6. **Performance**✅
 The shell is lightweight and optimized for performance. It provides fast execution for both simple and complex commands.
 
 Installation
