@@ -347,6 +347,38 @@ bool handle_pipes(string& input){
     
 }
 
+string bgColor256(int code) {
+    return "\033[48;5;" + std::to_string(code) + "m";
+}
+
+
+
+void setLogoAndColor() {
+    
+  
+    for (int i = 1; i < 175; ++i) {
+
+          cout << bgColor256(i) << setw(4) <<""<<RESET ;
+          int x=i;
+        if (x % 29 == 0) cout <<endl;
+        
+    }
+
+
+    
+    
+    
+      cout << CYAN << R"(
+                                                _______                  _       
+                                               |__   __|                (_)      
+                                                  | | ___ _ __ ___  _ __ _  ___  
+                                                  | |/ _ \ '_ ` _ \| '__| |/ _ \ 
+                                                  | |  __/ | | | | | |  | | (_) |
+                                                  |_|\___|_| |_| |_|_|  |_|\___/  termio
+        )" << RESET <<endl;
+
+    
+}
 
 
 
@@ -354,6 +386,9 @@ int main()
 {
   string input;
    init_shell();
+   
+   
+   setLogoAndColor();
   while(true){
       disDir2();
       cout<<">";
@@ -489,4 +524,4 @@ int main()
   }
     return 0;
 }
-
+   
