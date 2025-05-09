@@ -6,7 +6,7 @@ Overview
 This project introduces a fast, modern, and efficient shell designed for Linux, with an emphasis on performance, simplicity, and user experience. The shell provides seamless functionality on both Linux and Windows environments. It features support for inbuilt commands, external commands, piping, redirection, and other essential shell functionalities, making it a powerful tool for developers and users alike.
 
 
-![Shell Screenshot](assets/screenshot.png)
+![Shell Screenshot](assets/screenshot2.png)
 
 
 Features
